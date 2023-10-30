@@ -1,0 +1,461 @@
+@font-face {
+    font-family: SignPainter;
+    src: url(font/SignPainter.ttf);
+}
+
+@font-face {
+    font-family: PBold;
+    src: url(font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family:PRegular;
+    src: url(font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: PSemibold;
+    src: url(font/Poppins-SemiBold.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* landing page */
+.header{
+    width: 100%;
+    height: 892px;
+    background-image: url(img/Background-1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo1{
+   width: 300px;
+   margin-left: 50px;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "PSemibold";
+    font-size: 20px;
+}
+
+.navbar ul li{
+    margin-top: 20px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ .content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+}
+
+.texthea1{
+    margin-top: 33px;
+    margin-bottom: 5px; 
+    font-family: "SignPainter";
+    font-size: 96px;
+ }
+
+.texthea2{
+    font-family: "PRegular";
+    font-size: 28px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.btn1 {
+    letter-spacing: 2px;
+    width: 405px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #30BC6A;
+    font-size: 20px;
+    color: white;
+} 
+
+/* about */
+.container-fluid{
+    width: 1440px;
+    height: 416px;
+    flex-shrink: 0;
+    background-color: white;
+    text-align: center;
+}
+
+.text1{
+    margin-top: 33px;
+    font-family: "SignPainter";
+    font-size: 50px;
+    color: black;
+ }
+
+ .text2{
+    margin-bottom: 5px; 
+    font-family: "PRegular";
+    font-size: 24px;
+    color: black;
+ }
+
+ .container1{
+    justify-content: space-between;
+ }
+
+.container1 .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.col-md2{
+    margin: 30px;
+}
+
+.icon1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text5 {
+    font-family: "Pbold";
+    font-size: 20px;
+}
+
+.text6{
+    font-size: 15px;
+    font-family: "PRegular";
+}
+
+/* about boss */
+.bg4{
+    width: 100%;
+    height: 416px;
+    background-image: url(img/Background-3.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.text3{
+    margin-top: 50px;
+    font-family: "SignPainter";
+    font-size: 50px;
+    color: white;
+ }
+
+ .text4{
+    margin-bottom: 5px; 
+    font-family: "PRegular";
+    font-size: 24px;
+    color: white;
+ }
+
+ /* about boss-deskripsi */
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    text-align: left;
+    font-weight: bold;
+}
+
+.deskripsi{
+    font-family: "PRegular";
+    background-color: rgba(255,255,255,0.5);
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+}
+ .imgboss{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('Background-3.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+ }
+
+ /* service */
+.container3 {
+    width: 100%;
+    max-width: 1440px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: -40px; 
+}
+
+
+ .card{
+    flex: 1; 
+    margin: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .card-img-top{
+    max-width: 100%;
+ }
+
+ /* gallery1 */
+ .text7{
+    margin-top: 50px;
+    padding-left: 20px;
+    text-align: left;
+    font-family: "SignPainter";
+    font-size: 50px;
+    color: white;
+ }
+
+ .text8{
+    margin-bottom: 5px; 
+    padding-left: 30px;
+    text-align: left;
+    font-family: "PRegular";
+    font-size: 24px;
+    color: white;
+ }
+
+ .worker1{
+    float: right; 
+    height: 500hv; 
+    width: auto;
+ }
+ 
+ .bg1 {
+    margin-top: 50px;
+    background-image: linear-gradient(#20323b5d,#20323b80),url('img/Background-2.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: left;
+    padding: 165px 0; 
+   }
+  
+   .transparan{
+    background-color: white;
+    opacity: 0;
+   }
+
+   .btn2 {
+    letter-spacing: 2px;
+    margin-left: 30px;
+    width: 350px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border-style: none;
+    background: #30BC6A;
+    font-size: 20px;
+    color: white;
+} 
+
+/* gallery2 */
+.container4{
+    background-color: #20323B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imgg2{
+    width: 250px;
+    height: 200px;
+    flex-shrink: 0;
+    margin: 10px; 
+    border-radius: 8px; 
+    border-style:inherit;
+    }
+
+.btn3{
+    letter-spacing: 2px;
+    margin-left: 30px;
+    width: 200px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border-style: none;
+    background: #30BC6A;
+    font-size: 20px;
+    color: white;
+}
+
+/* price */
+.container5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.price-list-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white; 
+   }
+   
+   .price-list {
+    text-align: center;
+    background-color: #20323B; 
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-right: 50px;
+   }
+   
+   @media (max-width: 768px) {
+    .price-list-container {
+      flex-direction: column;
+      align-items: center;
+    }
+   
+    .price-list {
+      margin: 0 10px;
+    }
+   }
+
+.text10{
+    text-align: center;
+    font-family: "SignPainter";
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.text11{
+    font-family: "PSemibold";
+    font-size: 50px;
+}
+
+.text12{
+    font-family: "PRegular";
+    font-size: 20px;
+    margin: 2px;
+    justify-content: center;
+}
+
+.btn4{
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 200px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border-style: none;
+    background: #30BC6A;
+    font-size: 20px;
+    color: white;
+}
+
+/* Contact */
+.bdy{
+    background-color: #20323B;
+    margin-top: 20px;
+    color: white;
+   }
+   
+.text13{
+    font-family: "PRegular";
+    font-size: 14px;
+    margin-left: 10px;
+    justify-content: center;  
+}
+
+   .logo-cntnr {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+   }
+   
+   .kiri {
+    margin-right: 70px;
+    width: 273px;
+    height: 47px;
+   }
+
+   .kanan{
+    margin-top: 20px;
+    font-family: "PRegular";
+    font-size: 15px;
+   }
+   
+   .logoc{
+    width: 273px;
+    height: 47px;
+   }
+
+   .contact {
+    flex: 1;
+   } 
+   
+   contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   }
+
+   .icon2{
+    margin-right: 5px;
+   }
+   
+   .image {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: -20px;
+   }
+   
+   footer {
+    background-color: #162329;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   }
+
+   .nama1{
+    text-align: left;
+    padding: 20px;
+   }
+
+   .sosmed{
+    text-align: right;
+   }
